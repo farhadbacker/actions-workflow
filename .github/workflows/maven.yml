@@ -44,5 +44,5 @@ jobs:
           server-username: GITHUB_ACTOR
           server-password: GITHUB_TOKEN
 
-      - - name: Build and Test
+      -   name: Build and Test
           run: mvn -B clean verify
